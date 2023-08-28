@@ -35,7 +35,7 @@ body{
     font-weight: 300;
     float:right;
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .navbar{
         list-style: none;
         width: auto;
@@ -73,7 +73,7 @@ body{
     overflow: hidden;
     background-color: transparent;
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .home {
         display:grid;
         width: 100%;
@@ -94,7 +94,7 @@ img{
     right:2%;
     
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     img{
         position: relative;  
         display: block;
@@ -134,7 +134,7 @@ img{
     display: flex;
     justify-content: space-evenly;
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .previ{
     display: block;
     margin: 0 auto;
@@ -148,7 +148,7 @@ img{
     border-radius: 12px;
     width:30%;
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .prev1{
     width: 100%;
     }
@@ -174,7 +174,7 @@ img{
     border-radius: 12px;
     width: 30%;
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .prev2{
     width: 100%;
     }
@@ -201,7 +201,7 @@ img{
     width:30%;
     
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:600px), screen and (max-width:600px) and (orientation:landscape) {
     .prev3{
     width: 100%;
     }
